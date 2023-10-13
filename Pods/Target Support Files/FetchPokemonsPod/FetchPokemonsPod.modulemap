@@ -1,0 +1,6 @@
+framework module FetchPokemonsPod {
+  umbrella header "FetchPokemonsPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

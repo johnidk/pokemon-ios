@@ -4,7 +4,7 @@
 //
 //  Created by João Gabriel Lavareda Ayres Barreto on 11/03/23.
 //
-
+import FetchPokemonsPod
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate {
@@ -65,7 +65,7 @@ class ViewController: UIViewController, UICollectionViewDelegate {
     //MARK: - API
     
     func fetchPokemon(){
-        Service.shared.fetchPokemon { (pokemon) in
+        FetchPokemonsPod.Service.shared.fetchPokemon { (pokemon) in
             DispatchQueue.main.async {
                 self.pokemon = pokemon
                 self.collectionView.reloadData()

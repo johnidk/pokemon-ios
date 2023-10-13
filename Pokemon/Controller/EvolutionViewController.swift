@@ -6,10 +6,11 @@
 //
 
 import UIKit
+import FetchPokemonsPod
 
 class EvolutionViewController: UIViewController {
     
-    var pokemon: Pokemon? {
+    var pokemon: FetchPokemonsPod.Pokemon? {
         didSet {
             navigationItem.title = pokemon?.name?.capitalized
             imageView.image = pokemon?.image
@@ -61,7 +62,7 @@ class EvolutionViewController: UIViewController {
     let evoLabel: UILabel = {
         let label = UILabel()
         label.textColor = .white
-        label.text = "Evolution Chain eoq"
+        label.text = "Evolution Chain"
         label.font = UIFont.systemFont(ofSize: 18)
         return label
     }()

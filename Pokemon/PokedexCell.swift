@@ -6,17 +6,18 @@
 //
 
 import Foundation
+import FetchPokemonsPod
 import UIKit
 
 protocol PokedexCellDelegate {
-    func presentInfoView(withPokemon pokemon:Pokemon)
+    func presentInfoView(withPokemon pokemon: FetchPokemonsPod.Pokemon)
 }
 
 class PokedexCell: UICollectionViewCell {
     
     var delegate: PokedexCellDelegate?
     
-    var pokemon: Pokemon? {
+    var pokemon: FetchPokemonsPod.Pokemon? {
         didSet {
             nameLabel.text = pokemon?.name
             imageView.image = pokemon?.image

@@ -6,12 +6,12 @@
 //
 
 import UIKit
-
+import FetchPokemonsPod
 
 protocol InfoViewDelegate {
-    func dismissInfoView(withPokemon pokemon: Pokemon?)
+    func dismissInfoView(withPokemon pokemon: FetchPokemonsPod.Pokemon?)
     
-    func showMoreInfo(withPokemon pokemon: Pokemon?)
+    func showMoreInfo(withPokemon pokemon: FetchPokemonsPod.Pokemon?)
 }
 
 class InfoView: UIView {

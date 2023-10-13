@@ -1,0 +1,28 @@
+{
+  "name": "FetchPokemonsPod",
+  "version": "0.1.0",
+  "summary": "A short description of FetchPokemonsPod.",
+  "description": "A pod for fetching pokemons",
+  "homepage": "https://github.com/johnidk/FetchPokemonsPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johnidk": "johngabrielbarreto1337@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/johnidk/FetchPokemonsPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "FetchPokemonsPod/Classes/**",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "Kingfisher": [
+
+    ]
+  }
+}

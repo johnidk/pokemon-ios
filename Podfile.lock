@@ -1,24 +1,16 @@
 PODS:
-  - FetchPokemonsPod (0.1.0):
-    - Kingfisher
-  - Kingfisher (7.9.1)
+  - FetchPokemonsPod (0.1.0)
 
 DEPENDENCIES:
   - FetchPokemonsPod (from `../FetchPokemonsPod/`)
-  - Kingfisher (~> 7.0)
-
-SPEC REPOS:
-  trunk:
-    - Kingfisher
 
 EXTERNAL SOURCES:
   FetchPokemonsPod:
     :path: "../FetchPokemonsPod/"
 
 SPEC CHECKSUMS:
-  FetchPokemonsPod: 99f4c6041e7296ae0f6e236d9731d567b0e9ad26
-  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  FetchPokemonsPod: f038832656f36056038f3f6402799f01bc7b2ecc
 
-PODFILE CHECKSUM: 7ba79ec7e7772fed55c787f0908db005047301ac
+PODFILE CHECKSUM: 2d8a0213a5bf5692b220676d5dd440e39df2c7c7
 
 COCOAPODS: 1.13.0
